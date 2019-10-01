@@ -44,4 +44,11 @@ void SDrawAPI::drawPoints(const SFloat *points, const SInt pointsCount)
 
 //==============================================================================
 
+void SDrawAPI::drawImage(const SChar *data, const SInt width, const SInt height, const SInt bytePerPixel)
+{
+    
+}
+
+//==============================================================================
+
 }

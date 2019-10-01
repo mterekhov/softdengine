@@ -16,6 +16,7 @@ namespace spcDoom
     typedef float SFloat;
     typedef unsigned int SUInt;
     typedef int SInt;
+    typedef char SChar;
 
 //=============================================================================
     

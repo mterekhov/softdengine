@@ -22,6 +22,7 @@ public:
     virtual void clearScreen();
     virtual void drawPoints(const SFloat *points, const SInt pointsCount);
     virtual void drawLine(const SFloat x1, const SFloat y1, const SFloat x2, const SFloat y2);
+    virtual void drawImage(const SChar *data, const SInt width, const SInt height, const SInt bytePerPixel);
 };
 
 //=============================================================================

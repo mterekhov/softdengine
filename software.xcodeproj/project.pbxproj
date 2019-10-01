@@ -15,6 +15,24 @@
 		4C70A4B023436B9A006F22C4 /* sdoomengine.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4C70A4AE23436B9A006F22C4 /* sdoomengine.cpp */; };
 		4C70A4B62343A306006F22C4 /* sdrawapi.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4C70A4B42343A306006F22C4 /* sdrawapi.cpp */; };
 		4C70A4B92343A442006F22C4 /* sopenglapi.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4C70A4B72343A442006F22C4 /* sopenglapi.cpp */; };
+		4C70A4E02343B49B006F22C4 /* alevelintegrity.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4C70A4BE2343B49A006F22C4 /* alevelintegrity.cpp */; };
+		4C70A4E12343B49B006F22C4 /* ageometryreadservice.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4C70A4BF2343B49A006F22C4 /* ageometryreadservice.cpp */; };
+		4C70A4E22343B49B006F22C4 /* apalete.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4C70A4C12343B49A006F22C4 /* apalete.cpp */; };
+		4C70A4E32343B49B006F22C4 /* asprite.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4C70A4C52343B49A006F22C4 /* asprite.cpp */; };
+		4C70A4E42343B49B006F22C4 /* aflat.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4C70A4C62343B49A006F22C4 /* aflat.cpp */; };
+		4C70A4E52343B49B006F22C4 /* autilities.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4C70A4C72343B49A006F22C4 /* autilities.cpp */; };
+		4C70A4E62343B49B006F22C4 /* acolormap.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4C70A4C82343B49A006F22C4 /* acolormap.cpp */; };
+		4C70A4E72343B49B006F22C4 /* atgaexporter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4C70A4CA2343B49A006F22C4 /* atgaexporter.cpp */; };
+		4C70A4E82343B49B006F22C4 /* apicture.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4C70A4CB2343B49A006F22C4 /* apicture.cpp */; };
+		4C70A4E92343B49B006F22C4 /* awad.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4C70A4CD2343B49A006F22C4 /* awad.cpp */; };
+		4C70A4EA2343B49B006F22C4 /* athing.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4C70A4D12343B49A006F22C4 /* athing.cpp */; };
+		4C70A4EB2343B49B006F22C4 /* ademo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4C70A4D32343B49B006F22C4 /* ademo.cpp */; };
+		4C70A4EC2343B49B006F22C4 /* alump.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4C70A4D52343B49B006F22C4 /* alump.cpp */; };
+		4C70A4ED2343B49B006F22C4 /* alevel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4C70A4D92343B49B006F22C4 /* alevel.cpp */; };
+		4C70A4EE2343B49B006F22C4 /* aendoom.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4C70A4DB2343B49B006F22C4 /* aendoom.cpp */; };
+		4C70A4EF2343B49B006F22C4 /* atexture.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4C70A4DC2343B49B006F22C4 /* atexture.cpp */; };
+		4C70A4F02343B49B006F22C4 /* aimagedata.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4C70A4DD2343B49B006F22C4 /* aimagedata.cpp */; };
+		4C70A4F22343B4C9006F22C4 /* doom.wad in Resources */ = {isa = PBXBuildFile; fileRef = 4C70A4F12343B4C9006F22C4 /* doom.wad */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +53,43 @@
 		4C70A4B52343A306006F22C4 /* sdrawapi.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = sdrawapi.h; path = doomengine/sdrawapi.h; sourceTree = "<group>"; };
 		4C70A4B72343A442006F22C4 /* sopenglapi.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = sopenglapi.cpp; path = doomengine/sopenglapi.cpp; sourceTree = "<group>"; };
 		4C70A4B82343A442006F22C4 /* sopenglapi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = sopenglapi.h; path = doomengine/sopenglapi.h; sourceTree = "<group>"; };
+		4C70A4BC2343B49A006F22C4 /* apicture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = apicture.h; path = wad/apicture.h; sourceTree = "<group>"; };
+		4C70A4BD2343B49A006F22C4 /* athing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = athing.h; path = wad/athing.h; sourceTree = "<group>"; };
+		4C70A4BE2343B49A006F22C4 /* alevelintegrity.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = alevelintegrity.cpp; path = wad/alevelintegrity.cpp; sourceTree = "<group>"; };
+		4C70A4BF2343B49A006F22C4 /* ageometryreadservice.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ageometryreadservice.cpp; path = wad/ageometryreadservice.cpp; sourceTree = "<group>"; };
+		4C70A4C02343B49A006F22C4 /* apalete.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = apalete.h; path = wad/apalete.h; sourceTree = "<group>"; };
+		4C70A4C12343B49A006F22C4 /* apalete.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = apalete.cpp; path = wad/apalete.cpp; sourceTree = "<group>"; };
+		4C70A4C22343B49A006F22C4 /* alevelintegrity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = alevelintegrity.h; path = wad/alevelintegrity.h; sourceTree = "<group>"; };
+		4C70A4C32343B49A006F22C4 /* atexture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = atexture.h; path = wad/atexture.h; sourceTree = "<group>"; };
+		4C70A4C42343B49A006F22C4 /* atgaexporter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = atgaexporter.h; path = wad/atgaexporter.h; sourceTree = "<group>"; };
+		4C70A4C52343B49A006F22C4 /* asprite.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = asprite.cpp; path = wad/asprite.cpp; sourceTree = "<group>"; };
+		4C70A4C62343B49A006F22C4 /* aflat.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = aflat.cpp; path = wad/aflat.cpp; sourceTree = "<group>"; };
+		4C70A4C72343B49A006F22C4 /* autilities.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = autilities.cpp; path = wad/autilities.cpp; sourceTree = "<group>"; };
+		4C70A4C82343B49A006F22C4 /* acolormap.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = acolormap.cpp; path = wad/acolormap.cpp; sourceTree = "<group>"; };
+		4C70A4C92343B49A006F22C4 /* alevel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = alevel.h; path = wad/alevel.h; sourceTree = "<group>"; };
+		4C70A4CA2343B49A006F22C4 /* atgaexporter.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = atgaexporter.cpp; path = wad/atgaexporter.cpp; sourceTree = "<group>"; };
+		4C70A4CB2343B49A006F22C4 /* apicture.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = apicture.cpp; path = wad/apicture.cpp; sourceTree = "<group>"; };
+		4C70A4CC2343B49A006F22C4 /* enums.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = enums.h; path = wad/enums.h; sourceTree = "<group>"; };
+		4C70A4CD2343B49A006F22C4 /* awad.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = awad.cpp; path = wad/awad.cpp; sourceTree = "<group>"; };
+		4C70A4CE2343B49A006F22C4 /* aendoom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = aendoom.h; path = wad/aendoom.h; sourceTree = "<group>"; };
+		4C70A4CF2343B49A006F22C4 /* alump.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = alump.h; path = wad/alump.h; sourceTree = "<group>"; };
+		4C70A4D02343B49A006F22C4 /* ademo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ademo.h; path = wad/ademo.h; sourceTree = "<group>"; };
+		4C70A4D12343B49A006F22C4 /* athing.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = athing.cpp; path = wad/athing.cpp; sourceTree = "<group>"; };
+		4C70A4D22343B49A006F22C4 /* ageometryreadservice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ageometryreadservice.h; path = wad/ageometryreadservice.h; sourceTree = "<group>"; };
+		4C70A4D32343B49B006F22C4 /* ademo.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ademo.cpp; path = wad/ademo.cpp; sourceTree = "<group>"; };
+		4C70A4D42343B49B006F22C4 /* aimagedata.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = aimagedata.h; path = wad/aimagedata.h; sourceTree = "<group>"; };
+		4C70A4D52343B49B006F22C4 /* alump.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = alump.cpp; path = wad/alump.cpp; sourceTree = "<group>"; };
+		4C70A4D62343B49B006F22C4 /* asprite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = asprite.h; path = wad/asprite.h; sourceTree = "<group>"; };
+		4C70A4D72343B49B006F22C4 /* autilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = autilities.h; path = wad/autilities.h; sourceTree = "<group>"; };
+		4C70A4D82343B49B006F22C4 /* types.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = types.h; path = wad/types.h; sourceTree = "<group>"; };
+		4C70A4D92343B49B006F22C4 /* alevel.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = alevel.cpp; path = wad/alevel.cpp; sourceTree = "<group>"; };
+		4C70A4DA2343B49B006F22C4 /* awad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = awad.h; path = wad/awad.h; sourceTree = "<group>"; };
+		4C70A4DB2343B49B006F22C4 /* aendoom.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = aendoom.cpp; path = wad/aendoom.cpp; sourceTree = "<group>"; };
+		4C70A4DC2343B49B006F22C4 /* atexture.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = atexture.cpp; path = wad/atexture.cpp; sourceTree = "<group>"; };
+		4C70A4DD2343B49B006F22C4 /* aimagedata.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = aimagedata.cpp; path = wad/aimagedata.cpp; sourceTree = "<group>"; };
+		4C70A4DE2343B49B006F22C4 /* acolormap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = acolormap.h; path = wad/acolormap.h; sourceTree = "<group>"; };
+		4C70A4DF2343B49B006F22C4 /* aflat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = aflat.h; path = wad/aflat.h; sourceTree = "<group>"; };
+		4C70A4F12343B4C9006F22C4 /* doom.wad */ = {isa = PBXFileReference; lastKnownFileType = file; path = doom.wad; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +106,7 @@
 		4C482F4E2342498F001A00FA = {
 			isa = PBXGroup;
 			children = (
+				4C70A4BB2343B482006F22C4 /* WAD */,
 				4C482F7123424B6C001A00FA /* DoomEngine */,
 				4C482F592342498F001A00FA /* software */,
 				4C482F582342498F001A00FA /* Products */,
@@ -68,6 +124,7 @@
 		4C482F592342498F001A00FA /* software */ = {
 			isa = PBXGroup;
 			children = (
+				4C70A4F12343B4C9006F22C4 /* doom.wad */,
 				4C482F6B23424A2A001A00FA /* SOpenGLView.h */,
 				4C482F6C23424A2A001A00FA /* SOpenGLView.mm */,
 				4C482F5A2342498F001A00FA /* AppDelegate.h */,
@@ -84,15 +141,66 @@
 		4C482F7123424B6C001A00FA /* DoomEngine */ = {
 			isa = PBXGroup;
 			children = (
+				4C70A4BA2343B2EE006F22C4 /* DrawAPI */,
 				4C70A4AD23436B9A006F22C4 /* doomtypes.h */,
-				4C70A4B52343A306006F22C4 /* sdrawapi.h */,
-				4C70A4B42343A306006F22C4 /* sdrawapi.cpp */,
-				4C70A4B82343A442006F22C4 /* sopenglapi.h */,
-				4C70A4B72343A442006F22C4 /* sopenglapi.cpp */,
 				4C70A4AF23436B9A006F22C4 /* sdoomengine.h */,
 				4C70A4AE23436B9A006F22C4 /* sdoomengine.cpp */,
 			);
 			name = DoomEngine;
+			sourceTree = "<group>";
+		};
+		4C70A4BA2343B2EE006F22C4 /* DrawAPI */ = {
+			isa = PBXGroup;
+			children = (
+				4C70A4B52343A306006F22C4 /* sdrawapi.h */,
+				4C70A4B42343A306006F22C4 /* sdrawapi.cpp */,
+				4C70A4B82343A442006F22C4 /* sopenglapi.h */,
+				4C70A4B72343A442006F22C4 /* sopenglapi.cpp */,
+			);
+			name = DrawAPI;
+			sourceTree = "<group>";
+		};
+		4C70A4BB2343B482006F22C4 /* WAD */ = {
+			isa = PBXGroup;
+			children = (
+				4C70A4C82343B49A006F22C4 /* acolormap.cpp */,
+				4C70A4DE2343B49B006F22C4 /* acolormap.h */,
+				4C70A4D32343B49B006F22C4 /* ademo.cpp */,
+				4C70A4D02343B49A006F22C4 /* ademo.h */,
+				4C70A4DB2343B49B006F22C4 /* aendoom.cpp */,
+				4C70A4CE2343B49A006F22C4 /* aendoom.h */,
+				4C70A4C62343B49A006F22C4 /* aflat.cpp */,
+				4C70A4DF2343B49B006F22C4 /* aflat.h */,
+				4C70A4BF2343B49A006F22C4 /* ageometryreadservice.cpp */,
+				4C70A4D22343B49A006F22C4 /* ageometryreadservice.h */,
+				4C70A4DD2343B49B006F22C4 /* aimagedata.cpp */,
+				4C70A4D42343B49B006F22C4 /* aimagedata.h */,
+				4C70A4D92343B49B006F22C4 /* alevel.cpp */,
+				4C70A4C92343B49A006F22C4 /* alevel.h */,
+				4C70A4BE2343B49A006F22C4 /* alevelintegrity.cpp */,
+				4C70A4C22343B49A006F22C4 /* alevelintegrity.h */,
+				4C70A4D52343B49B006F22C4 /* alump.cpp */,
+				4C70A4CF2343B49A006F22C4 /* alump.h */,
+				4C70A4C12343B49A006F22C4 /* apalete.cpp */,
+				4C70A4C02343B49A006F22C4 /* apalete.h */,
+				4C70A4CB2343B49A006F22C4 /* apicture.cpp */,
+				4C70A4BC2343B49A006F22C4 /* apicture.h */,
+				4C70A4C52343B49A006F22C4 /* asprite.cpp */,
+				4C70A4D62343B49B006F22C4 /* asprite.h */,
+				4C70A4DC2343B49B006F22C4 /* atexture.cpp */,
+				4C70A4C32343B49A006F22C4 /* atexture.h */,
+				4C70A4CA2343B49A006F22C4 /* atgaexporter.cpp */,
+				4C70A4C42343B49A006F22C4 /* atgaexporter.h */,
+				4C70A4D12343B49A006F22C4 /* athing.cpp */,
+				4C70A4BD2343B49A006F22C4 /* athing.h */,
+				4C70A4C72343B49A006F22C4 /* autilities.cpp */,
+				4C70A4D72343B49B006F22C4 /* autilities.h */,
+				4C70A4CD2343B49A006F22C4 /* awad.cpp */,
+				4C70A4DA2343B49B006F22C4 /* awad.h */,
+				4C70A4CC2343B49A006F22C4 /* enums.h */,
+				4C70A4D82343B49B006F22C4 /* types.h */,
+			);
+			name = WAD;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -152,6 +260,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4C70A4F22343B4C9006F22C4 /* doom.wad in Resources */,
 				4C482F5E23424990001A00FA /* Assets.xcassets in Resources */,
 				4C482F6123424990001A00FA /* MainMenu.xib in Resources */,
 			);
@@ -164,11 +273,28 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4C70A4ED2343B49B006F22C4 /* alevel.cpp in Sources */,
+				4C70A4E02343B49B006F22C4 /* alevelintegrity.cpp in Sources */,
 				4C70A4B62343A306006F22C4 /* sdrawapi.cpp in Sources */,
+				4C70A4EB2343B49B006F22C4 /* ademo.cpp in Sources */,
+				4C70A4E22343B49B006F22C4 /* apalete.cpp in Sources */,
+				4C70A4EF2343B49B006F22C4 /* atexture.cpp in Sources */,
 				4C70A4B92343A442006F22C4 /* sopenglapi.cpp in Sources */,
+				4C70A4E12343B49B006F22C4 /* ageometryreadservice.cpp in Sources */,
+				4C70A4E62343B49B006F22C4 /* acolormap.cpp in Sources */,
+				4C70A4E92343B49B006F22C4 /* awad.cpp in Sources */,
 				4C70A4B023436B9A006F22C4 /* sdoomengine.cpp in Sources */,
 				4C482F6423424990001A00FA /* main.m in Sources */,
+				4C70A4EA2343B49B006F22C4 /* athing.cpp in Sources */,
 				4C482F6D23424A2A001A00FA /* SOpenGLView.mm in Sources */,
+				4C70A4F02343B49B006F22C4 /* aimagedata.cpp in Sources */,
+				4C70A4E52343B49B006F22C4 /* autilities.cpp in Sources */,
+				4C70A4EE2343B49B006F22C4 /* aendoom.cpp in Sources */,
+				4C70A4E32343B49B006F22C4 /* asprite.cpp in Sources */,
+				4C70A4EC2343B49B006F22C4 /* alump.cpp in Sources */,
+				4C70A4E72343B49B006F22C4 /* atgaexporter.cpp in Sources */,
+				4C70A4E42343B49B006F22C4 /* aflat.cpp in Sources */,
+				4C70A4E82343B49B006F22C4 /* apicture.cpp in Sources */,
 				4C482F5C2342498F001A00FA /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

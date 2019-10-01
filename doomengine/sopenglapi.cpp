@@ -64,4 +64,11 @@ void SOpenGLAPI::drawPoints(const SFloat *points, const SInt pointsCount)
 
 //==============================================================================
 
+void SOpenGLAPI::drawImage(const SChar *data, const SInt width, const SInt height, const SInt bytePerPixel)
+{
+    
+}
+
+//==============================================================================
+
 }

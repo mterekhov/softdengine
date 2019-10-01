@@ -33,11 +33,6 @@ void SDoomEngine::processGameCycle()
     const SFloat scale = 10.0f;
     const SFloat rowsNumber = 50.0f;
     const SFloat columnsNumber = 50.0f;
-    //    for (SFloat i = -rowsNumber; i < rowsNumber; i+= 1.0f)
-    //    {
-    //        const SFloat pointsList[] = {-rowsNumber * scale, i * scale, rowsNumber * scale, i * scale};
-    //        drawPoints(pointsList, 2);
-    //    }
 
     for (SFloat i = -rowsNumber; i < rowsNumber; i+= 1.0f)
     {

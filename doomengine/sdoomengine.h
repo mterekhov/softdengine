@@ -5,6 +5,7 @@
 
 #include "doomtypes.h"
 #include "sdrawapi.h"
+#include "aimagedata.h"
 
 //=============================================================================
 
@@ -17,6 +18,7 @@ class SDoomEngine
 {
 private:
     SDrawAPI *drawAPI;
+    spcWAD::AImageData imageData;
     
 public:
     SDoomEngine();

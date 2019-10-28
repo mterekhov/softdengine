@@ -1,5 +1,8 @@
 #include "sdoomengine.h"
 #include "sopenglapi.h"
+#include "awad.h"
+#include "aflat.h"
+#include <stdio.h>
 
 namespace spcDoom
 {
@@ -8,6 +11,13 @@ namespace spcDoom
 
 SDoomEngine::SDoomEngine() : drawAPI(new SOpenGLAPI())
 {
+    FILE* wadFile = 0;
+    wadFile = fopen("/Users/michael/Development/idSoftwareResearch/software/software/doom.wad", "rb");
+    fclose(wadFile);
+
+    std::string filePath = "/Users/michael/Development/idSoftwareResearch/software/software/doom.wad";
+    spcWAD::AWAD wad(filePath);
+    imageData = wad.findFlat("FLOOR5_2").imageData();
 }
 
 //==============================================================================
@@ -29,19 +39,7 @@ void SDoomEngine::updateScreenSize(const SFloat screenWidth, const SFloat screen
 void SDoomEngine::processGameCycle()
 {
     drawAPI->clearScreen();
-    
-    const SFloat scale = 10.0f;
-    const SFloat rowsNumber = 50.0f;
-    const SFloat columnsNumber = 50.0f;
-
-    for (SFloat i = -rowsNumber; i < rowsNumber; i+= 1.0f)
-    {
-        drawAPI->drawLine(-rowsNumber * scale, i * scale, rowsNumber * scale, i * scale);
-    }
-    for (SFloat i = -columnsNumber; i < columnsNumber; i+= 1.0f)
-    {
-        drawAPI->drawLine(i * scale, -columnsNumber * scale, i * scale, columnsNumber * scale);
-    }
+    drawAPI->drawImage((const char *)imageData.data(), imageData.width(), imageData.height(), imageData.bytesPerPixel());
 }
 
 //==============================================================================
